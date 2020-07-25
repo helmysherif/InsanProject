@@ -1,0 +1,53 @@
+.works
+{
+    padding:50px 0 50px;
+    text-align: center;
+}
+.works .container .row .col-lg-12 h1
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Roboto' , sans-serif;
+    padding-bottom:20px;
+}
+.works .container .row .col-lg-12 p
+{
+    font-size: 15px;
+    color:grey;
+    font-weight: 600;
+    padding-bottom:20px;
+}
+.works .container .row .col-lg-12 .buttons
+{
+    margin-bottom:30px;
+}
+.works .container .row .col-lg-12 button
+{
+    background: linear-gradient(to right,#63CC63,#63cc63b4);
+    border:0;
+    text-transform: capitalize;
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding:10px 30px;
+    font-family: 'Roboto' , sans-serif;
+}
+.works .container .row .col-lg-12 .more
+{
+    background: transparent;
+    border:2px solid #63CC63;
+    color:#63CC63;
+    box-sizing: border-box;
+    padding:8px 30px;
+}
+@media(max-width:991px)
+{
+    .works .container .row .col-lg-12 img
+    {
+        width:100%;
+    }
+    .works .container .row .col-lg-12 button
+    {
+        margin-top:20px;
+    }
+}

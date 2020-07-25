@@ -1,0 +1,51 @@
+.partners
+{
+    background: #f2f2f2;
+    padding:50px 0;
+}
+.partners .container .row 
+{
+    margin-top:100px;
+}
+.partners .container .row .col-lg-12 h2
+{
+    font-family: 'Roboto' , sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color:#282828;
+}
+.partners .container .row .col-lg-12 p
+{
+    text-align: center;
+    color:grey;
+    font-size: 16px;
+    padding:15px 0;
+}
+.partners .container .row .col-lg-12 .partner 
+{
+    background: #fff;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.07);
+    padding:20px;
+    text-align: center;
+}
+.partners .container .row .col-lg-12 .partner img
+{
+    display: block;
+    margin:30px auto;
+}
+.partners .container .row .col-lg-12 .partner a
+{
+    text-decoration: none;
+    color:#63CC63;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+@media(max-width:991px)
+{
+    .partners .container .row .col-lg-12 .partner 
+    {
+        margin-top:30px !important;
+    }
+}

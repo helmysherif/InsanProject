@@ -1,0 +1,56 @@
+.family
+{
+    padding:50px 0;
+    background: url('../../../assets/imgs/img10.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.family .container .row .col-lg-12 h3
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Roboto' , sans-serif;
+    color:#fff;
+}
+.family .container .row .col-lg-12 .carousel 
+{
+    text-align: center;
+    margin-top:50px;
+    padding:40px 0;
+}
+.family .container .row .col-lg-12 .carousel img
+{
+    border-radius: 50%;
+    margin-bottom:30px;
+}
+.family .container .row .col-lg-12 .carousel .carousel-caption
+{
+    position: initial;
+    text-align: center;
+    margin:auto;
+    width:100%;
+}
+.family .container .row .col-lg-12 .carousel .carousel-caption p
+{
+    width:40%;
+    color:#fff;
+    margin:0 auto;
+}
+.family .container .row .col-lg-12 .carousel .carousel-control-next,
+.family .container .row .col-lg-12 .carousel .carousel-control-prev
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:0;
+    opacity: 1;
+    background: #000;
+}
+@media(max-width:991px)
+{
+    .family .container .row .col-lg-12 .carousel .carousel-caption p
+    {
+        width:100%;
+    }
+}

@@ -1,0 +1,186 @@
+.header
+{
+    background: #f1f1f1;
+    line-height: 5;
+}
+.header .container .row .col-lg-12 .navbar
+{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.header .container .row .col-lg-12 .navbar .nav-link
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-left: 15px;
+    transition: .3s;
+    font-family: 'Roboto', sans-serif;
+}
+.header .container .row .col-lg-12 .navbar .nav-link.active,
+.header .container .row .col-lg-12 .navbar .nav-link:hover
+{
+    color:#63CC63;
+}
+.header .container .row .col-lg-12 .navbar form
+{
+    margin-left: 30px;
+}
+.header .container .row .col-lg-12 .navbar form input
+{
+    border:2px solid #63CC63;
+    border-radius: 5px;
+    background: #fff;
+    padding:0 0 0 20px;
+    outline: none;
+}
+.header .container .row .col-lg-12 .navbar form input:focus
+{
+    outline: none;
+}
+.header .container .row .col-lg-12 .navbar form input::placeholder
+{
+    color:#282828;
+    font-size: 13px;
+    font-weight: bold;
+}
+.header .container .row .col-lg-12 .navbar form button
+{
+    background: linear-gradient(to right,#63CC63,#63cc63b4);
+    color:#fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding:7px 20px;
+    border:0;
+    margin-left: 20px;
+}
+.navbar-toggler
+{
+    border:0;
+    border-radius: 0;
+    margin-right: 20px;
+}
+.navbar-toggler:focus
+{
+    outline: none;
+}
+.header .container .row .col-lg-12 .navbar form .input-group
+{
+    align-items: center;
+    position: relative;
+}
+.header .container .row .col-lg-12 .navbar form .input-group a
+{
+    position: absolute;
+    right: 8%;
+    color:#63CC63;
+    text-decoration: none;
+    z-index: 5;
+}
+@media(max-width:991px)
+{
+    .header .container 
+    {
+        width:100%;
+        max-width:100%;
+    }
+    .header .container .row .col-lg-12 .navbar-brand
+    {
+        padding-left: 20px;
+    }
+    .header .container .row .col-lg-12 
+    {
+        padding:0;
+    }
+    .header .container .row .col-lg-12 .navbar
+    {
+        text-align: center;
+    }   
+    .header .container .row .col-lg-12 .navbar form
+    {
+        margin-left: 0;
+        text-align: center;
+    }
+    .header .container .row .col-lg-12 .navbar form button
+    {
+        margin-left: 0;
+        margin:20px auto;
+    }
+    .header .container .row .col-lg-12 .navbar form a
+    {
+        right: 15%;
+        top: 81%;
+    }
+    .header .container .row .col-lg-12 .navbar form input
+    {
+        background: #fff;
+        margin:0 auto;
+    }
+    .navbar-collapse 
+    {
+        background: #000;
+    }
+    .header .container .row .col-lg-12 .navbar .nav-link
+    {
+        color:#fff;
+        padding:0 0 0px 0;
+    }
+    .header .container .row .col-lg-12 .navbar .nav-link.active
+    {
+        padding-top:20px;
+    }
+    .header .container .row .col-lg-12 .navbar form .input-group
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .header .container .row .col-lg-12 .navbar form
+    {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 30px;
+    }
+    .header .container .row .col-lg-12 .navbar form button
+    {
+        margin:0;
+    }
+    .header .container .row .col-lg-12 .navbar form .input-group a
+    {
+        top:-50%;
+    }
+    .header .container .row .col-lg-12 .navbar form input
+    {
+        width:250px;
+    }
+}
+@media(max-width:575px)
+{
+    .header .container .row .col-lg-12 .navbar form .input-group
+    {
+        width:90%;
+        margin:auto;
+    }
+    .header .container .row .col-lg-12 .navbar form .input-group a
+    {
+        top:-20px;
+        right:5%;
+    }
+    .header .container .row .col-lg-12 .navbar form button
+    {
+        margin-top:20px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px)
+{
+    .header .container .row .col-lg-12 .navbar form 
+    {
+        margin-left: 0;
+        position: absolute;
+        right: 100px;
+    }
+    .header .container .row .col-lg-12 .navbar form button
+    {
+        position: absolute;
+        right: -65%;
+    }
+}

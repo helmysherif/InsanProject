@@ -1,0 +1,44 @@
+.category
+{
+    padding:70px 0;
+    background: #fff;
+}
+.category .card
+{
+    width:100%;
+    padding:10px;
+    border-radius: 0px;
+}
+.category .card .card-body
+{
+    padding:0;
+    padding:15px 0;
+    text-align: center;
+}
+.category .card .card-title
+{
+    text-transform: capitalize;
+    font-size: 23px;
+}
+.category .card .card-text
+{
+    color:grey;
+    font-size: 13px;
+    font-weight: bold;
+}
+.category .card a
+{
+    text-decoration: none;
+    color:#63CC63;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 17px;
+}
+@media(max-width:991px)
+{
+    .category .card
+    {
+        margin-top:30px;
+    }
+}

@@ -1,0 +1,22 @@
+.photos .content
+{
+    width:80%;
+    margin:auto;
+}
+.photos img
+{
+    width:100%;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.modal.fade .modal-dialog
+{
+    max-width:800px;
+}
+@media(max-width:768px)
+{
+    .photos .content
+    {
+        width:100%;
+    }
+}

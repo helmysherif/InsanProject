@@ -1,0 +1,57 @@
+.categories
+{
+    background: #f7f7f7;
+    padding:50px 0;
+}
+.categories .container .row .col-lg-12 h3
+{
+    text-transform: capitalize;
+    text-align: center;
+    color:#282828;
+    margin-bottom:40px;
+}
+.categories .container .row .col-lg-12 .owl-theme img
+{
+    width:200px;
+    height: 200px;
+    margin:20px auto 0;
+}
+.categories .container .row .col-lg-12 .owl-theme .card
+{
+    text-align: center;
+    margin:0 auto 20px;
+    border:0;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.07);
+}
+.categories .container .row .col-lg-12 .owl-theme .card .card-title
+{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.categories .container .row .col-lg-12 .owl-theme .card .card-text
+{
+    color:grey;
+    font-size: 14px;
+    padding:20px 0;
+}
+.categories .container .row .col-lg-12 .owl-theme .owl-nav .owl-prev,
+.categories .container .row .col-lg-12 .owl-theme .owl-nav .owl-next
+{
+    color:#282828;
+    margin-right: 20px;
+}
+.categories .container .row .col-lg-12 .owl-theme .owl-nav .owl-prev span,
+.categories .container .row .col-lg-12 .owl-theme .owl-nav .owl-next span
+{
+    font-size: 45px;
+
+}
+.categories .container .row .col-lg-12 .owl-theme .owl-nav .owl-next
+{
+    margin-left: -2px;
+}
+.categories .container .row .col-lg-12 .owl-theme .owl-nav .owl-prev:hover,
+.categories .container .row .col-lg-12 .owl-theme .owl-nav .owl-next:hover
+{
+    background: transparent;
+}

@@ -1,0 +1,52 @@
+
+.gallery-info .name h3
+{
+    color:grey;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+}
+.gallery-content
+{
+    width:80%;
+    margin:auto;
+}
+.gallery-info .name p
+{
+    color:#282828;
+    font-size: 20px;
+    padding-top:15px;
+}
+.gallery-info .name iframe
+{
+    width:100%;
+    border:0;
+    height: 400px;
+    margin-top:30px;
+    border-radius: 15px;
+    border:1px solid #ccc;
+}
+iframe
+{
+    margin-bottom:50px;
+}
+@media(max-width:768px)
+{
+    .gallery-content
+    {
+        width:100%;
+    }
+    .gallery-info ul
+    {
+        display: block;
+        text-align: center;
+    }
+    .gallery-info ul li
+    {
+        padding-top:15px;
+    }
+    .gallery-info ul li.contact
+    {
+        text-align: center;
+    }
+}

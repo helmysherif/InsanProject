@@ -1,0 +1,83 @@
+.problems
+{
+    background: linear-gradient(to bottom,#63cc636e,#63cc633f);
+    padding:60px 0;
+}
+.problems .container .row .col-lg-12 p
+{
+    font-family: 'Roboto' , sans-serif;
+    text-transform: capitalize;
+    color:#282828;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+.problems .container .row .col-lg-12 h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Roboto' , sans-serif;
+    margin:0;
+    padding:0;
+    padding:15px 0 30px;
+}
+.problems .container .row .col-lg-12 .contact
+{
+    background: #fff;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.07);
+    width:80%;
+    margin:0 auto;
+    padding:50px;
+    border-radius: 5px;
+}
+.problems .container .row .col-lg-12 .contact form label
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    color:#282828;
+}
+.problems .container .row .col-lg-12 .contact form input,
+.problems .container .row .col-lg-12 .contact form select
+{
+    border:0;
+    border-radius: 0;
+    border-bottom:1px solid #ccc;
+    padding-left: 0;
+    margin-bottom:40px;
+}
+.problems .container .row .col-lg-12 .contact form textarea
+{
+    width:100%;
+    resize: none;
+    border:0;
+    border-bottom:1px solid #cccccc;
+    border-radius: 0;
+    padding:10px;
+}
+.problems .container .row .col-lg-12 .contact form input:focus,
+.problems .container .row .col-lg-12 .contact form textarea:focus
+{
+    outline: none;
+}
+.problems .container .row .col-lg-12 .contact form button
+{
+    background: linear-gradient(to right,#63CC63,#63cc63b4);
+    border:0;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding:10px 50px;
+    margin:30px 0;
+    font-size: 17px;
+}
+@media(max-width:991px)
+{
+    .problems .container .row .col-lg-12 .contact 
+    {
+        width:100%;
+        padding:20px;
+    }
+}

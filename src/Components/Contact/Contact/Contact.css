@@ -1,0 +1,41 @@
+.icon-list
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom:70px;
+}
+.icon-list li a
+{
+    text-decoration: none;
+    color:#fff;
+    background: #282828;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding:20px 0;
+    margin:0 50px;
+    transition: .3s;
+}
+.icon-list li a:hover
+{
+    background:#63CC63;
+}
+.icon-list li a i
+{
+    width:80px;
+}
+@media(max-width:768px)
+{
+    .icon-list
+    {
+        display: block;
+        text-align: center;
+    }
+    .icon-list li
+    {
+        margin-bottom:50px;
+    }
+}

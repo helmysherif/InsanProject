@@ -1,0 +1,92 @@
+.footer
+{
+    background: #f7f7f7;
+    padding:60px 0;
+}
+.footer .container img
+{
+    margin-bottom:60px;
+}
+.footer .container .row h4
+{
+    color:#282828;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer .container .row ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+}
+.footer .container .row ul li
+{
+    padding-bottom:10px;
+}
+.footer .container .row ul li i
+{
+    color:#a822a2;
+    margin-right:20px;
+}
+.footer .container .row ul li span
+{
+    color:grey;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer .container .row ul li a
+{   
+    text-decoration: none;
+    text-transform: capitalize;
+    color:grey;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer .container .row .contact p
+{
+    font-size: 14px;
+    color:grey;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+    margin:20px 0;
+    text-transform: capitalize;
+}
+.footer .container .row .contact .icons
+{
+    text-align: center;
+    margin-top:20px;
+}
+.footer .container .row .contact .icons a
+{
+    text-decoration: none;
+    color:#fff;
+    background: #282828;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding:10px;
+}
+.footer .container .row .contact .icons a .fa-facebook-f
+{
+    padding:10px 5px;
+}
+.footer .container .row .contact .icons a .fa-skype,
+.footer .container .row .contact .icons a .fa-instagram,
+.footer .container .row .contact .icons a .fa-linkedin-in
+{
+    padding:10px 3px;
+}
+@media(max-width:768px)
+{
+    .footer
+    {
+        text-align: center;
+    }
+    .footer .container .row .contact 
+    {
+        margin-bottom:30px;
+    }
+}
